@@ -1,0 +1,9 @@
+{
+  "name": "richlife-platform-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RichLIFE starter with packages, UPI review, referrals, dashboard, withdrawals and admin controls",
+  "type": "module",
+  "scripts": { "dev": "node server/index.js", "start": "node server/index.js" },
+  "dependencies": { "dotenv": "^16.4.7", "express": "^4.21.2", "helmet": "^8.0.0", "zod": "^3.24.1" }
+}
